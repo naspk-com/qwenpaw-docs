@@ -7,7 +7,7 @@ const title = (page.value as unknown as { seo?: { title?: string }, title?: stri
 const description = (page.value as unknown as { seo?: { description?: string }, description?: string })?.seo?.description || (page.value as unknown as { description?: string })?.description
 
 useSeoMeta({
-  title,
+  title: '首页',
   ogTitle: title,
   description,
   ogDescription: description

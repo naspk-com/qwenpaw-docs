@@ -18,7 +18,7 @@ export default defineAppConfig({
     title: '',
     to: '/',
     logo: {
-      alt: 'Site Logo',
+      alt: '飞牛QwenPaw',
       light: '/logo.svg',
       dark: '/logo_dark.svg'
     },
@@ -26,9 +26,9 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/naspk-com',
+      'to': 'https://github.com/naspk-com/QwenPaw',
       'target': '_blank',
-      'aria-label': 'GitHub'
+      'aria-label': 'GitHub 项目'
     }]
   },
   footer: {

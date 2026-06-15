@@ -1,5 +1,5 @@
 ---
-title: 首页
+title: 飞牛QwenPaw
 description: 部署在你自己的 NAS 上的个人 AI 助理。支持微信/QQ/钉钉/飞书等多通道对话，多智能体协作，定时任务，Skills 无限扩展。
 image:
   light: /images/hero-qwenpaw-light.png
