@@ -19,17 +19,17 @@
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
 
-  --color-fnblue-50: #EEF4FF;
-  --color-fnblue-100: #E0EAFF;
-  --color-fnblue-200: #C7D9FE;
-  --color-fnblue-300: #A3BFFC;
-  --color-fnblue-400: #789BFA;
-  --color-fnblue-500: #4A70F4;
-  --color-fnblue-600: #3B57E8;
-  --color-fnblue-700: #3042CC;
-  --color-fnblue-800: #2C37A6;
-  --color-fnblue-900: #293483;
-  --color-fnblue-950: #1C2050;
+  --color-fnqwenpaw-50: #FFF9F5;
+  --color-fnqwenpaw-100: #FEF0E0;
+  --color-fnqwenpaw-200: #FDE0C0;
+  --color-fnqwenpaw-300: #FCC898;
+  --color-fnqwenpaw-400: #F9AE70;
+  --color-fnqwenpaw-500: #F69448;
+  --color-fnqwenpaw-600: #D47730;
+  --color-fnqwenpaw-700: #AA5A20;
+  --color-fnqwenpaw-800: #86441A;
+  --color-fnqwenpaw-900: #6E3416;
+  --color-fnqwenpaw-950: #3E1A08;
 }
 
 :root {
