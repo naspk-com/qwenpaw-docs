@@ -2,9 +2,12 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
+    '@nuxt/image',
     '@nuxt/ui',
     '@nuxt/content'
   ],
+
+  ssr: false,
 
   devtools: {
     enabled: true
@@ -27,14 +30,15 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    asyncContext: true
+    payloadExtraction: false
   },
 
   compatibilityDate: '2024-07-11',
 
   nitro: {
     prerender: {
-      routes: ['/index.html']
+      routes: ['/'],
+      crawlLinks: true
     }
   },
 
@@ -55,5 +59,9 @@ export default defineNuxtConfig({
         dir: './assets/icons/custom'
       }
     ]
+  },
+
+  image: {
+    provider: 'none'
   }
 })
