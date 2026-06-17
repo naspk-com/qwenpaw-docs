@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
 
+  ssr: false,
+
   devtools: {
     enabled: true
   },
@@ -35,11 +37,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: [
-        '/'
-      ],
-      crawlLinks: true,
-      autoSubfolderIndex: true
+      routes: ['/']
     }
   },
 
