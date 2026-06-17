@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
 
+  ssr: false,
+
   devtools: {
     enabled: true
   },
@@ -34,11 +36,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-07-11',
 
   nitro: {
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true,
-      autoSubfolderIndex: true
-    }
+    preset: 'static'
   },
 
   eslint: {
