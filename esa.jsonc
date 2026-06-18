@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm run generate",
+  "buildCommand": "pnpm build",
   "assets": {
-    "directory": ".output/public"
+    "directory": "dist"
   }
 }
